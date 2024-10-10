@@ -4,9 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="index.css"/>
+  <style type="text/css" media="all" >
+  </style>
+  <title>BlackSky</title>
 </head>
-<body>
-  <button type="download"><a id="beta1" href="https://github.com/BlackSky-1/ULTRAMusicProMax/releases/download/V5.4_Redmi_Note_12_Pro_4G/ULTRAMusicProMax_All.zip">beta1</a></button>
+<body id="Index">
+  <h1>BlackSky</h1>
+  <center><img src="logo.jpg" alt="img" width="250px"/></center>
+  
+  <div class="container">
+	<div class="button"><a id="beta1" href="https://github.com/BlackSky-1/ULTRAMusicProMax/releases/download/V5.4_Redmi_Note_12_Pro_4G/ULTRAMusicProMax_All.zip">Download-Beta</a>
+		<div class="blobs">
+			<div class="blob">
+				<div class="splash"></div>
+				<div class="splash"></div>
+			</div>
+			<div class="blob">
+				<div class="splash"></div>
+				<div class="splash"></div>
+				<div class="splash"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+<filter id="goo">
+			      <feGaussianBlur in="SourceGraphic" stdDeviation="7 7" result="blur"></feGaussianBlur>
+			      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"></feColorMatrix>
+			      <feComposite in="SourceGraphic" in2="goo"></feComposite>
+			    </filter>
+  </defs>
+</svg>
+<!-- partial -->
+  <script  src="index.js"></script>
+
 </body>
 </html>
